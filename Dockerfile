@@ -1,4 +1,4 @@
-FROM python:3.11
+FROM python:3.10
 WORKDIR /app
 COPY pyproject.toml poetry.lock* /app/
 RUN pip install poetry
