@@ -1,11 +1,14 @@
 # Project management
 notes/*
 
-# Environnement virtuel
+# Logs
+logs/
+
+# Virtual env
 .venv/
 env/
 
-# Cache de Python
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
@@ -13,11 +16,11 @@ __pycache__/
 # Poetry
 .poetry/
 
-# Fichiers d'environnement
+# Env files
 .env
 .env.local
 
-# Caches et artefacts de construction
+# Cache and build files
 build/
 dist/
 *.egg-info/
@@ -29,7 +32,7 @@ docker-compose.override.yml
 # Code Editor
 .vscode/
 
-# Test caches
+# Test cache
 pytest_cache/
 
 # Documentation build
