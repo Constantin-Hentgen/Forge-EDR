@@ -1,5 +1,6 @@
 # Project management
 notes/*
+.hide
 
 # Logs
 logs/
@@ -28,9 +29,6 @@ dist/
 
 # Docker
 docker-compose.override.yml
-
-# Code Editor
-.vscode/
 
 # Test cache
 pytest_cache/
